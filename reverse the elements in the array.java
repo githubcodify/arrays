@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int[] list1 = {1, 2, 3, 4, 5, 6, 7};
         int[] list2 = reverse(list1);
-        System.out.println(Arrays.toString(list2));
+        System.out.println(Arrays.toString(list2));             // returns [7, 6, 5, 4, 3, 2, 1]
     }
 
     public static int[] reverse(int[] list) {
